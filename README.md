@@ -15,7 +15,7 @@ The starter includes a home page, a health endpoint, and a passing health endpoi
 Clone the starter into a new folder:
 
 ```bash
-git clone https://github.com/bradtraversy/cicd-lab-starter.git cicd-lab
+git clone https://github.com/harshitsinghal226/cicd-lab.git
 cd cicd-lab
 npm ci
 ```
@@ -49,7 +49,7 @@ From inside your newly cloned `cicd-lab` folder, remove the starter's Git histor
 These commands use Bash or Zsh. On Windows, use Git Bash.
 
 ```bash
-rm -rf .git
+Remove-Item -Recurse -Force .git
 git init -b main
 git add .
 git commit -m "feat: add CI/CD lab starter"
